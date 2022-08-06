@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login.LoginActivity">
+
+    <EditText
+        android:id="@+id/editEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:drawablePadding="12dp"
+        android:hint="Email"
+        android:fontFamily="@font/nunito_sans_bold"/>
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginStart="16dp"
+        android:drawablePadding="12dp"
+        android:hint="Password"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="134dp"
+        android:fontFamily="@font/nunito_sans_bold"/>
+
+    <Button
+        android:id="@+id/loginVerifyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginStart="16dp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="467dp"
+        android:fontFamily="@font/nunito_sans_bold"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginStart="16dp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="467dp"
+        android:fontFamily="@font/nunito_sans_bold"/>
+
+</LinearLayout>

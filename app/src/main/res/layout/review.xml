@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/reviewlist_layout"
+    android:layout_marginHorizontal="@dimen/activity_horizontal_margin_8dp"
+    android:layout_marginVertical="@dimen/activity_vertical_margin_8dp"
+    android:clickable="true"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin_8dp"
+        android:layout_marginVertical="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="@dimen/activity_vertical_margin_8dp">
+
+
+            <ImageView
+                android:id="@+id/beer_photo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/default_avatar"
+                android:layout_margin="8dp"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boii"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/avg_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="5,0"
+                android:textColor="@color/orange"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/review"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_vertical_margin_8dp"
+            android:layout_weight="1"
+            android:text="Pours a very cloudy orange-yellow with a medium bodied off-white colored head that laces the glass nicely on the way down. Smells of orange, grapefruit, melon, a hint of toasted malts. Tastes of orange, toasted malts, grapefruit, melon, and a slight bitterness at the backend. It's a smooth feel, nice amount of carbonation, overall a pretty good beer, worth a try if you can find it."
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "193833534739",
+    "firebase_url": "https://beerbrary-77344-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "beerbrary-77344",
+    "storage_bucket": "beerbrary-77344.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193833534739:android:1dc6f3156ddc45e70246e6",
+        "android_client_info": {
+          "package_name": "com.example.beerbrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193833534739-l0qlm80f649ubcq9uhcl0ndgd115oa37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjSDsglTJkREwnaCHUaEsBwGu4r1t_A0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193833534739-l0qlm80f649ubcq9uhcl0ndgd115oa37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
